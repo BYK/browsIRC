@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Client</title>
+    <script src="curl.js"></script>
+    <script>
+        curl({
+            baseUrl: "../build",
+            paths: {
+               'EventEmitter': '../external/EventEmitter.js',
+               'bot': '../example/bot.js'
+            }
+        });
+        curl('bot');
+    </script>
+</head>
+<body>
+    Look at your console.
+</body>
+</html>
