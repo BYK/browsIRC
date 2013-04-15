@@ -14,9 +14,16 @@ You can access more detailed documentation for this module at `Read the Docs`_
 Building
 -------------
 
-Simply run `make build` or `tsc "@compileopts"` to build the library. It has two
-modules and an external module, EventEmitter_ for browsers, and uses the AMD_
-module system.
+Simply run::
+
+    make build
+
+or::
+
+    tsc "@compileopts"
+
+to build the library. It has two modules and an external module, EventEmitter_ 
+for browsers, and uses the AMD_ module system.
 
 .. _EventEmitter: https://github.com/creationix/eventemitter-browser
 .. _AMD: https://github.com/cujojs/curl#what-is-amd
